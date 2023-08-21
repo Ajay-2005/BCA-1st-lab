@@ -41,6 +41,6 @@
   
      } 
   
-     averageofprime(prime, j); 
+     averageofprime(prime, h); 
      return 0; 
  }
