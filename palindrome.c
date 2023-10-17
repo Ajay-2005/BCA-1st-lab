@@ -7,7 +7,7 @@ int main() {
     printf("Enter a string: ");
     gets(str);
     rev[10]=strrev(str);
-    if(strcmp(str,rev){
+    if(strcmp(str,rev)==0){
       printf("The given string is a palindrome.\n");
     }
     else{
