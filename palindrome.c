@@ -3,10 +3,10 @@
 #include <string.h>
 int main() {
     char str[10];
-    int length,rev[10];
+    char rev[10];
     printf("Enter a string: ");
     gets(str);
-    rev[10]=strrev(str);
+    rev=strrev(str);
     if(strcmp(str,rev)==0){
       printf("The given string is a palindrome.\n");
     }
